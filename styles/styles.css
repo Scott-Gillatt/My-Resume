@@ -5,8 +5,8 @@
          padding-left: 0px; 
         }   
         .profilepicture {
-          height: 225px;
-          width: 225px;
+          height: 200px;
+          width: 200px;
         }
         
         .container{
@@ -16,19 +16,20 @@
             background-color: #2C2A2C;
             color: #c7c7c7;
             text-align: center;
-            padding-left: 50px;
             padding: 20px;
         }
         .contact-container{
-            text-align: center;
+            text-align: left;
             padding: 30px;
         }
         .contact{
-            padding: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
         }
         .contact-title{
             letter-spacing: 2px;
-            padding: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
         }
         a, a:hover{
             color: #CC0000;
@@ -45,13 +46,60 @@
         }
         .skillset{
             padding-top: 5px;
+            padding-bottom: 30px;
+            text-align: left;
+        }
+        .skillset h1{
+            color: #CC0000;
             text-align: left;
         }
         .aboutme h1{
             color: #CC0000;
             text-align: left;
         }
-        .aboutme i{
-            font-size: 40px;
+        .aboutme{
             text-align: left;
+            padding-bottom: 30px;
+            padding-top: 30px;
+        }
+        #aboutmeicon{
+            font-size: 30px;
+        }
+        .container-title{
+            margin: 20px 0;
+            font-weight: 600px;
+            background-color: #CC0000;
+            color: white;
+            padding-left: 15px;
+            max-width: 175px;
+            font-size: 20px;
+            font-variant: small-caps;
+        }
+        .work-experience{
+            padding-left: 20px;
+        }
+        .work-experience h3{
+            font-variant: small-caps;
+        }
+        .work-experience span{
+            color: #8E8686;
+        }
+        .education{
+            padding-left: 20px;
+        }
+        .education h3{
+            font-variant: small-caps;
+        }
+        .education span{
+            color: #8E8686;
+        }
+        .education h5{
+            padding-left: 15px;
+        }
+        #worktitle{
+            color: red;
+            font-size: 16px;
+        }
+        .maxheight{
+            height: 200px;
         }
