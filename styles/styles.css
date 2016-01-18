@@ -5,10 +5,52 @@
          padding-left: 0px; 
         }   
         .profilepicture {
-          width: 300px;
-          height: 300px;
+          height: 225px;
+          width: 225px;
         }
         
         .container{
             width:  100%
+        }
+        .sidebar{
+            background-color: #2C2A2C;
+            color: #c7c7c7;
+            text-align: center;
+            padding-left: 50px;
+            padding: 20px;
+        }
+        .contact-container{
+            text-align: center;
+            padding: 30px;
+        }
+        .contact{
+            padding: 5px;
+        }
+        .contact-title{
+            letter-spacing: 2px;
+            padding: 10px;
+        }
+        a, a:hover{
+            color: #CC0000;
+        }
+        .red{
+            color: #CC0000;
+        }
+        .progress-bar{
+            background-color: #CC0000;
+        }
+        .progress{
+            border: 1px solid #CC0000;
+        }
+        .skillset{
+            padding-top: 5px;
+            text-align: left;
+        }
+        .aboutme h1{
+            color: #CC0000;
+            text-align: left;
+        }
+        .aboutme i{
+            font-size: 40px;
+            text-align: left;
         }
